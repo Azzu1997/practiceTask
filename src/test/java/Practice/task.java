@@ -17,10 +17,12 @@ public void main(String BROWSER)
 	if(BROWSER.equalsIgnoreCase("chrome"))
 	{
 		driver =new ChromeDriver();
+		System.out.println("Chrome");
 	}
 	else if(BROWSER.equalsIgnoreCase("firefox"))
 	{
 		driver =new FirefoxDriver();
+		System.out.println("firefox");
 	}
 	
 	System.out.println("done the task");
