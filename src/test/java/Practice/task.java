@@ -3,6 +3,7 @@ package Practice;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -11,7 +12,7 @@ public class task
 	WebDriver driver;
 @Parameters("browser")
 @Test	
-public void main(String BROWSER)
+public void main(@Optional("chrome") String BROWSER)
 {
 	BROWSER =System.getProperty("browser");
 	if(BROWSER.equalsIgnoreCase("chrome"))
