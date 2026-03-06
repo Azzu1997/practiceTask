@@ -10,12 +10,12 @@ import org.testng.annotations.Test;
 public class task
 {
 	WebDriver driver;
-@Parameters("browser")
+
 @Test	
-public void main(@Optional("firefox") String BROWSER)
+public void main()
 {
 	System.out.println("Start");
-	BROWSER =System.getProperty("browser", "firefox");
+	String BROWSER =System.getProperty("browser", "firefox");
 	if(BROWSER.equalsIgnoreCase("chrome"))
 	{
 		driver =new ChromeDriver();

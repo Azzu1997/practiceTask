@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-06T09:50:47 IST" name="Suite" finished-at="2026-03-06T09:50:48 IST" duration-ms="1483">
+  <suite started-at="2026-03-06T10:00:02 IST" name="Suite" finished-at="2026-03-06T10:00:06 IST" duration-ms="4194">
     <groups>
     </groups>
-    <test started-at="2026-03-06T09:50:47 IST" name="Test" finished-at="2026-03-06T09:50:48 IST" duration-ms="1483">
+    <test started-at="2026-03-06T10:00:02 IST" name="Test" finished-at="2026-03-06T10:00:06 IST" duration-ms="4194">
       <class name="Practice.task">
-        <test-method signature="main(java.lang.String)[pri:0, instance:Practice.task@408d971b]" started-at="2026-03-06T09:50:47 IST" name="main" finished-at="2026-03-06T09:50:48 IST" duration-ms="1445" status="PASS">
+        <test-method signature="main(java.lang.String)[pri:0, instance:Practice.task@408d971b]" started-at="2026-03-06T10:00:02 IST" name="main" finished-at="2026-03-06T10:00:06 IST" duration-ms="4149" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
