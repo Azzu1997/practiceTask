@@ -4,8 +4,8 @@
   <test thread-count="1" parallel="tests" name="Test">
   <parameter name="browser" value="chrome"></parameter>
   <classes>
-  <class name="task"/>
-  <class name="task1"/>
+  <class name="Practice.task"/>
+ 
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

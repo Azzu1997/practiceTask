@@ -14,7 +14,8 @@ public class task
 @Test	
 public void main(@Optional("chrome") String BROWSER)
 {
-	BROWSER =System.getProperty("browser");
+	System.out.println("Start");
+	BROWSER =System.getProperty("browser", "chrome");
 	if(BROWSER.equalsIgnoreCase("chrome"))
 	{
 		driver =new ChromeDriver();
