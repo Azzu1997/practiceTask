@@ -12,10 +12,10 @@ public class task
 	WebDriver driver;
 @Parameters("browser")
 @Test	
-public void main(@Optional("chrome") String BROWSER)
+public void main(@Optional("firefox") String BROWSER)
 {
 	System.out.println("Start");
-	BROWSER =System.getProperty("browser", "chrome");
+	BROWSER =System.getProperty("browser", "firefox");
 	if(BROWSER.equalsIgnoreCase("chrome"))
 	{
 		driver =new ChromeDriver();
